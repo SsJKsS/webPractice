@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FakePAZZO</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("p").click(function(){
+            $(this).hide();
+          });
+        });
+        </script>
+</head>
+<body id=config>
+    <div class="topBar">
+        <img id="webIcon" onclick="changeImage(this)" width="140" height="60" src="pic/Icon.png">
+        <ul class="topbarUl">
+            <li class="topbarLink"><a href="#home">主页</a></li>
+            <li class="topbarLink"><a href="#news">新闻</a></li>
+            <li class="topbarLink"><a href="#contact">联系</a></li>
+            <li class="topbarLink"><a href="#about">关于</a></li>
+            <li class="topbarLink"><a href="#about">关于</a></li>
+            <li class="topbarLink"><a href="#about"></a></li>
+            <li class="topbarLink"><a href="#about"></a></li>
+        </ul>
+        <!-- 右上導航欄 -->
+        <div>
+            <ul class="topbarrightUl">
+                <li class="topbarrightlia"><a href="#home"><img src="pic/topbar1.png" width="40px" height="40px"></a></li>
+                <li class="topbarrightlia"><a href=""><img src="pic/topbar2.png" width="40px" height="40px"></a></li>
+                <li class="topbarrightlia"><a href="#contact"><img src="pic/topbar3.png" width="40px" height="40px"></a></li>
+                <li class="topbarrightlia"><a href="#about"><img src="pic/topbar4.png" width="40px" height="40px"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <p>如果你点我，我就会消失。</p>
+        <p>继续点我!</p>
+        <p>接着点我!</p>
+    </div>
+    <!-- 語言選擇 -->
+    <!-- <div class="language">
+        <select>
+            <option>繁體中文</option>
+            <option>English</option>
+        </select>
+    </div> -->
+</body>
+</html>

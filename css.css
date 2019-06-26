@@ -1,0 +1,135 @@
+hr {color:sienna;}
+#config{   
+    background-image:url(https://images.unsplash.com/photo-1498354136128-58f790194fa7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size:cover;
+    margin: 0%;
+}
+.center
+{
+    text-align: center;
+	margin: auto;
+    width: 100%;    
+}
+.pic
+{
+    float: left;
+}
+.sticky
+{
+    position:sticky;
+}
+body p
+{
+	font-family:"Times New Roman";
+}
+.language
+{
+    float:right;
+    top:60px;
+    right:15px;
+}
+.accountPasswordBlank
+{
+    padding:12px 15px;
+}
+.accountInline
+{
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+}
+.loginButton
+{
+    color: white;
+    background-color: cadetblue;
+    width:70px;
+    margin:20px;
+    border-radius: 5px;
+    border-width:0;
+}
+.registerButton
+{
+    color: white;
+    background-color: rgb(26, 196, 68);
+    width:70px;
+    margin:20px;
+    border-radius: 5px;
+    border-width:0;
+}
+li
+{
+    float:left;
+}
+.topBar
+{
+    background-image:url(pic/navigate_background.jpg);
+    background-size:cover;
+    height: 60px;
+    display: flex;
+}
+.topbarUl 
+{
+    height: 60px;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+}
+.topbarrightUl
+{
+    height: 60px;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.topbarLink
+{
+    height: 30px;
+    /* border-right:1px solid green;  */
+    width : 100px;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.topbarrightlia
+{
+    height: 30px;
+    /* border-right:1px solid green;  */
+    width : 50px;
+    text-align: center;
+    text-decoration: none;
+} 
+li a:hover 
+{
+    background-color: #555;
+    color: white;
+}
+li a.active {
+    background-color: rgb(73, 133, 182);
+    color: white;
+}
+li a:active {
+    background-color: #4CAF50;
+    color: white;
+}
+.clear
+{
+    clear: both;
+}
+.img {
+    display: block;
+    margin: auto;
+}
+input
+{
+    padding: 8px 15px;
+}
+input:focus 
+{
+    border-color:blue; 
+}

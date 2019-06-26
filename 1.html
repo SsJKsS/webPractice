@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Practice~</title>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body id="config">
+    <!-- box-sizing -->
+    <!-- 導航欄 -->
+        <ul>
+            <li><a class="active" href="#home">主页</a></li>
+            <li><a href="#news">新闻</a></li>
+            <li><a href="#contact">联系</a></li>
+            <li><a href="#about">关于</a></li>
+        </ul>
+    <!-- 語言選擇 -->
+    <div class="language">
+            <select>
+                <option>繁體中文</option>
+                <option>English</option>
+            </select>
+    </div>
+
+    <form style= "margin: 12px;" name="go">
+    姓氏: <input type="text" id="lname"><br>
+    名字: <input type="text" id="fname">
+    <input type="submit" onclick="nameSubmit()">
+    <p id="message"></p>
+    </form>  
+
+    <div style="margin: 12px">
+    <input id="id1" type="number" min="100" max="300" required>
+    <button onclick="checkNumber()">验证</button>
+    <p>如果输入的数字小于 100 或大于300，会提示错误信息。</p>
+    <p id="demo"></p>
+    </div>
+    
+    <div class="center"><h1 style="color:darkgoldenrod;">Hello^_^</h1></div>
+    <a href="https://forum.gamer.com.tw/B.php?bsn=17532" target="blank"><img class="pic" src="pic/1.jpg" width="33%" height="200"></a></div>
+    <a href="http://www.runoob.com/" target="blank"><img class="pic" src="pic/2.jpg" width="33%" height="200"></a></div>
+    <a href="https://lol.garena.tw/" target="blank"><img class="pic" src="pic/3.jpg" width="34%" height="200"></a></div>
+    <div style="background-color: beige; border-radius: 8px; margin:30px 150px 30px 30px; padding: 10px;float:left">      
+        <form style="background-color: silver; border-radius: 8px;">
+                    <!-- <label for="account">Account~</label> -->
+                    <div class="accountPasswordBlank"><input id="loginFromAccount" type="text" name="account" required="required" placeholder="Account"><br></div>
+                    <!-- <label for="pwd">Password~</label> -->
+                    <div class="accountPasswordBlank"><input id="loginFromPassword"  type="password" name="pwd" required="required" placeholder="Password"><br></div>
+                    <div class="accountInline"><input onclick="accountPasswordCheck()" class="loginButton" type="submit" value="登入"></div>
+                    <div class="accountInline"><input class="registerButton" type="submit" value="註冊"></div>
+        </form>
+    </div>
+    <div>
+        <a href="https://www.youtube.com/" target="blank"><img width="140" height="100"src="https://i.imgur.com/JR4ZJyh.jpg"></a>
+        <img id="emt" onclick="changeImage(this)" width="140" height="100" src="pic/emt.jpg">
+        <img width="140" height="100"src="pic/5.gif">
+    </div>
+    
+    <div style="margin:30px;float:left"><p>
+            榮佑，感謝您訂購餐點
+            以下是您在吉豚屋 KATSUYA 館前店訂購的電子明細。<br>
+            
+            總計	$488.00<br>
+             
+            2	海老腰內豬排定食 Pork Loin Chop Donburi with Shrimp Set Meal<br>
+            $229.00<br>
+            
+            小計	$458.00<br>
+            服務費	$30.00<br>
+             
+            收費金額<br>	 
+            $488.00    
+    </p></div>
+
+    <p class="clear"></p>
+    <iframe width="450" height="315" src="https://www.youtube.com/embed/OaEADmrRI-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div style="background-image:url(https://en.pimg.jp/028/736/111/1/28736111.jpg)">
+            <table border="1" align="center">
+                    <tr>
+                        <th>OxO</th>
+                        <th>OxO</th>
+                    </tr>
+                    <tr>
+                        <td>OuO</td>
+                        <td>OuO2</td>
+                    </tr>
+                    <tr>
+                        <td>QAQ</td>
+                        <td>QAQ2</td>
+                    </tr>
+            </table>
+    <div style="text-align : center"><a href="https://u.ubereats.com/zh-TW/" target="_blank">Follow the link.</a></div>   
+<script src="script.js"></script>
+</body>    
+</html>
+
