@@ -66,6 +66,7 @@ li
     background-size:cover;
     height: 60px;
     display: flex;
+    justify-content: start;
 }
 .topbarUl 
 {
@@ -132,4 +133,25 @@ input
 input:focus 
 {
     border-color:blue; 
+}
+.test
+{
+    font-size: 20px;
+    color: #4CAF50;
+}
+.hideShow
+{
+    font-size: 20px;
+    color: gray;
+}
+#panel, #flip
+{
+    padding: 5px;
+    text-align: center;
+    background-color: antiquewhite;
+    border: solid 1px blue;
+}
+#panel
+{
+    display: none;
 }

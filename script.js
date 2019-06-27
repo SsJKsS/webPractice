@@ -59,8 +59,8 @@ function checkNumber() {
         document.getElementById("demo").innerHTML = "输入正确";
     }
 }
-$(document).ready(function(){
-    $("p").click(function(){
-      $(this).hide();
+$(function(){
+    $("p.test").click(function(){
+        $(this).css("color","blue");
     });
   });

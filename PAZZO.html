@@ -6,16 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FakePAZZO</title>
     <link rel="stylesheet" type="text/css" href="css.css">
-    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script>
-        $(document).ready(function(){
-          $("p").click(function(){
-            $(this).hide();
-          });
-        });
-        </script>
+        // 文字點擊變色
+        $(function(){
+            $(".test").click(function(){
+                $(this).css("color","blue");
+            });
+        // 文字躲貓貓
+            $("#hide").click(function(){
+                $("p.hideShow").hide();
+            });
+            $("#show").click(function(){
+                $("p.hideShow").show();
+            });
+            $("#toggle").click(function(){
+                $("p.hideShow").toggle();
+            });
+        // 文字漸現
+            $("#flip").click(function(){
+                $("#panel").slideToggle();
+            });    
+        });    
+    </script>
 </head>
-<body id=config>
+<body id="config">
     <div class="topBar">
         <img id="webIcon" onclick="changeImage(this)" width="140" height="60" src="pic/Icon.png">
         <ul class="topbarUl">
@@ -38,10 +55,24 @@
         </div>
     </div>
     <div>
-        <p>如果你点我，我就会消失。</p>
-        <p>继续点我!</p>
-        <p>接着点我!</p>
+        <p class="test">如果你点我，我就会變藍。</p>
+        <p class="hideShow">躲貓貓。</p>
+        <button id="hide">隱藏!!</button>
+        <button id="show">出現!!</button><br>
+        <button id="toggle" style="margin-top: 3px; width:104px">切換!!</button>
     </div>
+    <div id="flip" style="width:400px">点我，显示或隐藏面板。</div>
+    <div id="panel" style="width:400px">Hello world!</div>
+    <h1>OuO</h1>
+    <h2>OuO</h2>
+    <h3>OuO</h3>
+    <abbr title="World Wide Web">WWW</abbr><br>
+    <abbr title="Real Simple Syndication">RSS</abbr>
+    <pre>
+        &lt;article&gt;
+            &lt;h1&gt;Article Heading&lt;/h1&gt;
+        &lt;/article&gt;
+    </pre>
     <!-- 語言選擇 -->
     <!-- <div class="language">
         <select>
