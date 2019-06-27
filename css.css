@@ -66,7 +66,7 @@ li
     background-size:cover;
     height: 60px;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
 }
 .topbarUl 
 {
@@ -93,9 +93,6 @@ li
     padding: 15px 15px;
     text-align: center;
     text-decoration: none;
-    display: flex;
-    justify-content: flex-end;
-    
 }
 .topbarrightlia
 {
@@ -104,7 +101,13 @@ li
     width : 50px;
     text-align: center;
     text-decoration: none;
-} 
+}
+.leftbarUl 
+{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
 li a:hover 
 {
     background-color: #555;
