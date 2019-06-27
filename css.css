@@ -77,22 +77,13 @@ li
 }
 .topbarrightUl
 {
+    width: auto;
     height: 60px;
     top: 0;
     list-style-type: none;
     margin: 0;
     padding: 10px;
-    display: flex;
-    justify-content: flex-end;
-}
-.topbarLink
-{
-    height: 30px;
-    /* border-right:1px solid green;  */
-    width : 100px;
-    padding: 15px 15px;
-    text-align: center;
-    text-decoration: none;
+
 }
 .topbarrightlia
 {
@@ -105,21 +96,25 @@ li
 .leftbarUl 
 {
     display: flex;
+    flex-direction: column;
+    background-color: beige;
     list-style-type: none;
     margin: 0;
 }
-li a:hover 
+.blockAlign
 {
-    background-color: #555;
-    color: white;
+    display: flex;
+    align-items: center;
 }
-li a.active {
-    background-color: rgb(73, 133, 182);
-    color: white;
-}
-li a:active {
-    background-color: #4CAF50;
-    color: white;
+li a
+{
+    display: block;
+    color: green;
+    height: 30px;
+    width : 100px;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
 }
 .clear
 {
