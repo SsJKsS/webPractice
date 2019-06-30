@@ -158,14 +158,12 @@ input:focus
 }
 .productName
 {
+    margin: 50px;
     display: flex;
-    justify-content: flex-start;
-    width: 240px;
-    height: 80px;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
     text-align: center;
-}
-.container
-{
     background-image:url(pic/background2.jpeg);
     background-size:cover;
 }
