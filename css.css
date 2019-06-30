@@ -82,7 +82,7 @@ li
     top: 0;
     list-style-type: none;
     margin: 0;
-    padding: 10px;
+   
 
 }
 .topbarrightlia
@@ -95,11 +95,14 @@ li
 }
 .leftbarUl 
 {
+    background-image:url(pic/navigate_background.jpg);
+    background-size:cover;
     display: flex;
     flex-direction: column;
     background-color: beige;
     list-style-type: none;
     margin: 0;
+    height: 1200px;
 }
 .blockAlign
 {
@@ -152,4 +155,17 @@ input:focus
 #panel
 {
     display: none;
+}
+.productName
+{
+    display: flex;
+    justify-content: flex-start;
+    width: 240px;
+    height: 80px;
+    text-align: center;
+}
+.container
+{
+    background-image:url(pic/background2.jpeg);
+    background-size:cover;
 }
