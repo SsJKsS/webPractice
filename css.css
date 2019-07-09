@@ -159,8 +159,9 @@ input:focus
 .productName
 {
     margin: 50px;
+    padding-left: 5%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     color: white;
     text-align: center;
